@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="instatag.com.b3ds.AddServices">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="instatag.com.b3ds.ConsultDoctorActivity"
+        android:background="@color/white">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Area of Speciality:"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="25dp"
+                android:textSize="25sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Facility Name"
+
+                        android:textColor="#f60d0909"
+                        android:textSize="15sp"
+                        />
+
+                    <EditText
+                        android:id="@+id/doctorfacilityNameID"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Enter facility name"
+
+                        android:textColor="#000"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/style1"
+                        android:padding="10dp"
+                        android:textSize="18sp"
+                        />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Select Specialty"
+                        android:textColor="#f60d0909"
+                        android:textSize="15sp"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        android:entries="@array/doctorspecialist"
+                        android:background="@drawable/style1"
+
+                        android:layout_marginTop="5dp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Description"
+
+                        android:textColor="#f60d0909"
+                        android:textSize="15sp"
+                        />
+
+                    <EditText
+                        android:id="@+id/doctordescriptionID"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Enter description"
+
+                        android:textColor="#000"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/style1"
+                        android:padding="10dp"
+                        android:textSize="18sp"
+                        />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Location:"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="25dp"
+                android:textSize="25sp"
+                />
+            <EditText
+                android:id="@+id/fulladdressID"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Your Address"
+
+                android:textColor="#000"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/style1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/placenameID"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Place Name"
+
+                android:textColor="#000"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/style1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:id="@+id/localityID"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Locality"
+                android:textColor="#000"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/style1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:id="@+id/pincodeID"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter PIN code"
+                android:textColor="#000"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/style1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:id="@+id/phonenumID"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Phone Number"
+                android:textColor="#000"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/style1"
+                android:padding="10dp"
+                android:textSize="18sp"
+                />
+
+
+
+
+
+
+
+
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Service"
+                android:textStyle="bold"
+                android:id="@+id/saveservicebuttonid"
+                android:background="@drawable/buttonstyle"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</FrameLayout>

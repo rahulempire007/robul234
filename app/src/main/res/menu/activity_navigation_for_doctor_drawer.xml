@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_doctordashboard"
+            android:icon="@drawable/ic_action_docdash"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_doc_service"
+            android:icon="@drawable/ic_action_service"
+            android:title="Add Services" />
+        <item
+            android:id="@+id/patMsgtoDoc"
+            android:icon="@drawable/ic_action_msg"
+            android:title="Patient Msg" />
+        <item
+            android:id="@+id/nav_viewprofile"
+            android:icon="@drawable/ic_action_user"
+            android:title="View Profile" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

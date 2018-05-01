@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="instatag.com.b3ds">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <user-permission android:name="android.permission-group.STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+    <!-- <meta-data -->
+    <!-- android:name="com.google.android.geo.API_KEY" -->
+    <!-- android:value="AIzaSyAC9qXynysY7v4BWEU6MECYgQ8D3YxP2Vw"/> -->
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/FB_id" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD6hL_MS6Pn25JPic2bR_2i8yanmZyCBmU" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterDoctor" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".SetPasswordActivity" />
+        <activity android:name=".VerifyRegEmail" />
+        <activity android:name=".VerificationChoiceActivity" />
+        <activity android:name=".ChoiceActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".SetupProfile" />
+        <activity android:name=".ConsultDoctorActivity" />
+        <activity android:name=".VisitReportActivity" />
+        <activity android:name=".DoctorDashboardActivity" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".BookAppointmentActivity" />
+        <activity android:name=".SetupProfileForDoctor" />
+        <activity android:name=".ViewProfileDoctor" />
+        <activity android:name=".DisplayDoctorList" />
+        <activity android:name=".OCRReadingCapbality"/>
+        <activity android:name=".CaseDetailActivity" />
+        <activity android:name=".ViewProfilePatient" />
+        <activity android:name=".CommunicatetoDoc" />
+        <activity android:name=".PatientMessageActivity" />
+        <activity android:name=".FetchingMsgFromDoctor_to_Pat" />
+        <activity android:name=".Upload_Family_history_Activity" />
+        <activity android:name=".NavigationForDoctor"/>
+        <activity android:name=".Navigation" />
+        <!--
+        <activity
+
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <!--<activity
+            android:name=".NavigationForDoctor"
+            android:label="@string/title_activity_navigation_for_doctor"
+            android:theme="@style/AppTheme"></activity>-->
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr"/>
+    </application>
+
+</manifest>

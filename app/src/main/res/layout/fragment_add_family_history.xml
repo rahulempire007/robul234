@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="instatag.com.b3ds.AddFamilyHistory">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="vertical"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="instatag.com.b3ds.ConsultDoctorActivity"
+            android:background="@color/white">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Family History:"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="25dp"
+                android:textSize="25sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Member Name"
+
+                    android:textColor="#f60d0909"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/entermemberNameID"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Enter member name"
+
+                    android:textColor="#000"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/style1"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Select Relationship"
+                    android:textColor="#f60d0909"
+                    android:textSize="15sp"
+                    />
+
+                <Spinner
+                    android:id="@+id/selectRelationID"
+
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:entries="@array/relationshipvalue"
+                    android:background="@drawable/style1"
+
+                    android:layout_marginTop="5dp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Age"
+
+                    android:textColor="#f60d0909"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/enterAgeOfMemberID"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Enter age"
+
+                    android:textColor="#000"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/style1"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Disease Name"
+
+                    android:textColor="#f60d0909"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/diseaseNameID"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Enter Disease "
+
+                    android:textColor="#000"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/style1"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Select Status"
+                    android:textColor="#f60d0909"
+                    android:textSize="15sp"
+                    />
+
+                <Spinner
+                    android:id="@+id/selectCurrentStatusID"
+
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:entries="@array/currentStatusValue"
+                    android:background="@drawable/style1"
+
+                    android:layout_marginTop="5dp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Detected in Year"
+
+                    android:textColor="#f60d0909"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/enterYearID"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Enter year"
+
+                    android:textColor="#000"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/style1"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Description"
+
+                    android:textColor="#f60d0909"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/enterDescriptionID"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="disscription"
+
+                    android:inputType="textMultiLine"
+                    android:textColor="#000"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/style1"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Report"
+                android:textStyle="bold"
+                android:id="@+id/savehistorybuttonid"
+                android:background="@drawable/buttonstyle"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>

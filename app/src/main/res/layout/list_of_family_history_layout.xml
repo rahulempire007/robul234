@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="15dp"
+
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:textSize="22sp"
+                android:textColor="#000"
+
+                android:id="@+id/showingMemberNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Member Name"/>
+
+
+            <TextView
+
+                android:textSize="20sp"
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/showingRelationId"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="Relationship"/>
+
+            <TextView android:layout_marginTop="10dp"
+                android:id="@+id/showingAgeId"
+                android:textSize="20sp"
+                android:textColor="#000"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="current Age"/>
+
+            <TextView android:layout_marginTop="10dp"
+                android:id="@+id/showingDiseaseId"
+                android:textSize="20sp"
+                android:textColor="#000"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disease Name"/>
+            <TextView android:layout_marginTop="10dp"
+                android:id="@+id/showingCurrentStatusId"
+                android:textSize="20sp"
+                android:textColor="#000"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Status"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

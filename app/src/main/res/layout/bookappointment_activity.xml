@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="instatag.com.b3ds.BookAppointmentActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+
+
+        android:text="Enter A Phone Number:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip" />
+    <Button
+        android:id="@+id/button1"
+
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+
+
+        android:text="Book my appointment" />
+</LinearLayout>

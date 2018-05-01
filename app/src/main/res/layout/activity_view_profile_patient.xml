@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="instatag.com.b3ds.ViewProfileDoctor">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Personal Information"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="25dp"
+            android:textSize="25sp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="This is your current profile information,you can
+change it anytime"
+
+
+        android:textColor="@color/cast_intro_overlay_background_color"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="First Name"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/firstNameis"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Rahul"
+
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Last Name"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Saxena"
+            android:id="@+id/lastNameis"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Email Address"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="saxena.rahul993@gmail.com"
+            android:id="@+id/Emailis"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Mobile number"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="8660921683"
+            android:id="@+id/Mobilis"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Location"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="noida sector 62"
+            android:id="@+id/addressforPatId"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+android:layout_marginBottom="15dp"
+        android:id="@+id/editprofileID"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

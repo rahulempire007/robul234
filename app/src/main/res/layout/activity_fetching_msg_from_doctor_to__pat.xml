@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="instatag.com.b3ds.FetchingMsgFromDoctor_to_Pat">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Message by Doctor:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="25dp"
+        android:textSize="25sp"
+
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="18dp"
+        app:cardCornerRadius="50dp">
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:dividerHeight="2dp"
+        android:id="@+id/showingmsgID">
+
+    </ListView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

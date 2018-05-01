@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="instatag.com.b3ds.PatientMessageActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Subject"
+android:visibility="gone"
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fever and cold cough"
+            android:id="@+id/getsubID"
+            android:visibility="gone"
+            android:enabled="false"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+
+            android:padding="06dp"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="DATE:"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/msgdateID"
+            android:enabled="false"
+            android:textColor="#000"
+
+
+
+            android:padding="6dp"
+            android:textSize="12sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="From:"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nilesh gupta"
+            android:id="@+id/getpatientNameID"
+            android:enabled="false"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+
+
+
+            android:textSize="15sp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Message:"
+
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="16dp"
+            app:cardCornerRadius="15dp">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi doctor"
+            android:id="@+id/getmsgID"
+            android:enabled="false"
+            android:textColor="#000"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+
+
+            android:textSize="15sp"
+            />
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/replyToPatId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+       android:layout_gravity="right"
+        android:text="Reply"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>

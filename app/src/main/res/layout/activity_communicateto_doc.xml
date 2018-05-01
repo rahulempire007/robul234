@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navimage"
+    tools:context="instatag.com.b3ds.CommunicatetoDoc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Drop your Message:"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginLeft="25dp"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Get a response within 5 minutes"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="Enter Doctor name"
+            android:textColorHint="#fff"
+            android:id="@+id/msgToID"
+            android:textColor="#fff"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+
+            android:padding="7dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Subject:"
+android:visibility="gone"
+            android:textColor="#f60d0909"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="enter your sub here"
+            android:id="@+id/enterSubId"
+            android:textColor="#000"
+            android:visibility="gone"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style1"
+            android:padding="7dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Message:"
+
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/enterMessgId"
+            android:textColor="#fff"
+            android:inputType="textMultiLine"
+            android:background="@drawable/style1"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/submitMsgButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_marginLeft="40dp"
+
+        android:layout_gravity="center"
+      android:background="@drawable/buttonstyle"/>
+        <Button
+            android:id="@+id/chooseFileId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="choose"
+            android:layout_marginLeft="110dp"
+
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
